@@ -1,0 +1,65 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo{
+    min-width: 100%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    height: auto;
+
+
+}
+.central{
+    height: fit-content;
+    padding: 20px;
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+
+}
+span{
+    color: rgb(255, 255, 255);
+
+}
+#Distancia{
+    width: 200px;
+    height: 20px;
+}
+#consumo{
+    width: 200px;
+    height: 20px;
+}
+#preço_combustivel{
+    width: 200px;
+    height: 20px;
+}
+#button{
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+    background: gray;
+    border: none;
+    height: 40px;
+    width: 150px;
+
+    background-color: white;
+    height: 20px;
+    width: 150px;
+}
+.central #resultado{
+    color:white;
+    font-size: 22;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
