@@ -19,47 +19,87 @@ body{
 .central{
     height: fit-content;
     padding: 20px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.315);
     border-radius: 15px;
     text-align: center;
     justify-content: center;
+  
 
+}
+button{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    position: sticky;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    
+}
+button:hover{
+    background-color: rgb(49, 98, 141);
 }
 span{
     color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 4px;
+
 
 }
+
+
 #Distancia{
+    align-items: center;
     width: 200px;
     height: 20px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+    display: inline-block;
+    transition: border-color 0.3s;
+    margin-right: -20px;
+}
+.Distancia:focus{
+    border-color: aqua;
+
 }
 #consumo{
     width: 200px;
     height: 20px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+    display: inline-block;
+    margin-right: -20px;
 }
 #preço_combustivel{
     width: 200px;
     height: 20px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+    display: inline-block;
+    margin-right: 38px;
 }
-#button{
-    padding: 5px;
-    border-radius: 5px;
-    transition: 0.3s;
-    background: gray;
-    border: none;
-    height: 40px;
-    width: 150px;
 
-    background-color: white;
-    height: 20px;
-    width: 150px;
-}
 .central #resultado{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
     font-size: 22;
     margin: auto;
     text-align: center;
     margin-top: 10px;
 }
+#imgpos {
+	position: absolute; 
+	left: 90px; /* posiciona a 90px para a esquerda */ 
+	top: 70px; /* posiciona a 70px para baixo */
+	}
 
 
